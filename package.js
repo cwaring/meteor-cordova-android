@@ -4,7 +4,9 @@ Package.describe({
 
 Package.on_use(function (api, where) {
 	"use strict";
-	api.export && api.export('Cordova', 'client');
   api.add_files('lib/cordova.js', 'client');
   api.add_files('lib/cordova_plugins.js', 'client');
+
+  // export the global cordova object to the client
+	api.export && api.export('cordova', 'client');
 });

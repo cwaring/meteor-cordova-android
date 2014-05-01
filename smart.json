@@ -1,0 +1,8 @@
+{
+  "name": "cordova-android",
+  "description": "Core runtime files for Android Cordova",
+  "homepage": "https://github.com/cwaring/meteor-cordova-android",
+  "author": "Chris Waring <chris@wwaves.co> (http://www.wwaves.co)",
+  "version": "0.0.1",
+  "git": "https://github.com/cwaring/meteor-cordova-android.git"
+}

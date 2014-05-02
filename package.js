@@ -1,12 +1,12 @@
 Package.describe({
-  summary: "Apache Cordova is a platform for building native mobile applications using HTML, CSS and JavaScript."
+  summary: "Core runtime files for Apache Cordova on Android"
 });
 
 Package.on_use(function (api, where) {
-	"use strict";
+  "use strict";
   api.add_files('lib/cordova.js', 'client');
   api.add_files('lib/cordova_plugins.js', 'client');
 
   // export the global cordova object to the client
-	api.export && api.export('cordova', 'client');
+  api.export && api.export('cordova', 'client');
 });

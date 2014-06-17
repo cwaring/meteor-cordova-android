@@ -7,4 +7,4 @@ This package exports the cordova global uninitialised so you can boot it when ne
 cordova.require('cordova/init');
 ```
 
-Current Version: 3.4.0
+Current Version: 3.5.0

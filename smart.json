@@ -2,7 +2,7 @@
   "name": "cordova-android",
   "description": "Core runtime files for Apache Cordova on Android",
   "homepage": "https://github.com/cwaring/meteor-cordova-android",
-  "author": "Chris Waring <chris@wwaves.co> (http://www.wwaves.co)",
-  "version": "0.0.1",
+  "author": "Chris Waring <chris@wwaves.co> (http://wwaves.co)",
+  "version": "0.0.2",
   "git": "https://github.com/cwaring/meteor-cordova-android.git"
 }
